@@ -42,8 +42,9 @@ def password_generator(length=20, lowercase=True, uppercase=True, numbers=True, 
 
 
 parser = argparse.ArgumentParser(description='Strong Password Generator.')
+
 parser.add_argument('--length', '-l', type=int,
-                    default=20, help='Set password length. Default is 20')
+                    default=20, help='Set password length. Default is 20.')
 parser.add_argument('--lowercase', '-lc', action='store_false',
                     help='Remove lowercase characters.')
 parser.add_argument('--uppercase', '-uc', action='store_false',
@@ -56,7 +57,8 @@ parser.add_argument('--punctuation', '-p',  action='store_true',
                     help=f'Include all punctuation.')
 
 
-args = parser.parse_args()
+kwargs = vars(parser.parse_args())
 
-password_generator(args.length, args.lowercase, args.uppercase,
-                   args.numbers, args.symbols, punctuation=args.punctuation)
+
+if __name__ == '__main__':
+    password_generator(**kwargs)
