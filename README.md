@@ -10,4 +10,4 @@ Strong Password Generator
 * `--lowercase, -lc` Remove lowercase characters.
 * `--uppercase, -uc` Remove uppercase characters.
 * `--numbers, -n` Remove numbers. 
-* `punctuation, -p`Include all punctuation.
+* `--punctuation, -p`Include all punctuation.
