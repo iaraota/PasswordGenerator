@@ -6,7 +6,7 @@ Strong Password Generator
 
 ### Script options
 * `-h, --help ` show this help message
-* `--length LENGTH, -l LENGTH` Set password length. Default is 20
+* `--length LENGTH, -l LENGTH` Set password length. Default is 20.
 * `--lowercase, -lc` Remove lowercase characters.
 * `--uppercase, -uc` Remove uppercase characters.
 * `--numbers, -n` Remove numbers. 
