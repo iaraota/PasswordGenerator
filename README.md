@@ -2,7 +2,7 @@
 Strong Password Generator
 
 ## Running script
-* `python3 password_generator.py` will generate a password with 20 characters containing lowercase and uppercase letters, numbers and common symbos `@#$%_-`.
+* `python3 password_generator.py` will generate a password with 20 characters containing lowercase and uppercase letters, numbers and common symbols `@#$%_-`.
 
 ### Script options
 * `-h, --help ` show this help message
